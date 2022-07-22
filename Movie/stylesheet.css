@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:  20px 100px;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    margin-bottom:2px;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+}
+
+header .logo{
+    positioning:relative;
+    max-width: 80px;
+    position: absolute;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul :hover{
+    color: rgb(14, 30, 46);
+}
+
+header ul li a{
+    display: inline-block;
+    color: rgb(29, 52, 88);
+    font-weight: 100;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+}
+
+a{
+    margin-left: 50px;
+    top: 7px;
+    left: 700px;
+    bottom: 100px;;
+    text-items: end;
+    adding: 0.15rem 0;
+    padding-top: 0.4rem;
+    position: relative;
+}
+
+.menu{
+    display: inline;
+    position: fixed;
+    color: rgb(20, 56, 56);
+    font-family: 'Kanit', sans-serif;
+}
+
+.kotak{
+    background-color: rgb(180, 213, 247);
+    height: 40px;
+    width: 1110px;
+    position: fixed;
+    
+}
+
+.content{
+    padding-right: 900px;
+    padding-left: 150px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.content .textbox{
+    display: inline-block;
+    position: relative;
+    max-width: 600%;
+    top:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+.content .textbox h1{
+    color: rgb(25, 55, 67);
+    font-size: 50px;
+    line-height: 1.4em;
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+}
+
+.content .textbox h1 span{
+    color: rgb(118, 153, 222) ;
+    font-size: 1,2 em;
+    font-weight: 900;
+}
+
+.content .textbox p{
+    color: rgb(33, 151, 92);
+}
+
+.content .textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(20, 150, 176);
+    color: rgb(219, 110, 63);
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.foto{
+    height: 500px;
+    width: auto;
+    top:5px;
+    left: 300px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.thumb{
+    position: absolute;
+    left: 10%;
+    bottom: 10px;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0,5px;
+    margin-top: 100px;
+}
+
+.thumb li :hover{
+    transform: translateY(-50%);
+}
+
+.thumb li img{
+    max-width: 60px;
+    top: 500px;
+    border-radius: 10px;
+}
